@@ -1,0 +1,37 @@
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	margin:0 auto;
+	padding:20px auto;
+	align-self: center;
+	justify-content: space-around;
+}
+
+.card {
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 7px;
+	margin:7px 7px;
+	flex-basis: 250px;
+	flex-grow: 1;
+}
+
+.cardimg {
+	height: 70px;
+	width: 60px;
+	border-radius: 7px;
+}
+
+.cours{
+	padding-left:10px;
+	padding-right:10px;
+	margin-bottom:20px;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 7px;
+	margin:30px 7px;
+}

@@ -1,0 +1,41 @@
+.container {
+	width:800px;
+	margin: 15px auto;
+	align-self: flex-start;
+}
+
+#page{
+	padding-top: 100px;
+}
+
+.frame{
+	background-position: center;
+	background-size: cover;
+	width:180px;
+	height:180px;
+	margin: 15px auto;
+	align-self: flex-end;
+}
+
+#as1{
+	background-image: url("../../image/as1.jpeg");
+}
+#ss1{
+	background-image: url("../../image/ss1.jpeg");
+}
+
+@media (max-width:870px) {
+	.container {
+		width: 600px;
+	}
+}
+@media (max-width:670px) {
+	.container {
+		width: 400px;
+	}
+}
+@media (max-width:470px) {
+	.container {
+		width: 300px;
+	}
+}

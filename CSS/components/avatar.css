@@ -1,0 +1,22 @@
+.avatar img {
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+}
+
+.avatar {
+	align-self: center;
+	width:150px;
+	padding-left:10px;
+	padding-right:10px;
+	margin-bottom:20px;
+	text-align:center;
+	justify-content: space-around;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 7px;
+	margin:7px 7px;
+}
+
+#team{
+	margin-bottom:100px;
+}
